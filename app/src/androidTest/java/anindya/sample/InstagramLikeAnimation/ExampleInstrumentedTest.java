@@ -1,4 +1,4 @@
-package anindya.sample.materialbottomtab;
+package anindya.sample.InstagramLikeAnimation;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("anindya.sample.materialbottomtab", appContext.getPackageName());
+        assertEquals("anindya.sample.InstagramLikeAnimation", appContext.getPackageName());
     }
 }

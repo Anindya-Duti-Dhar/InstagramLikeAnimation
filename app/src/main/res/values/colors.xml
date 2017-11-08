@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#f44336</color>
     <color name="colorAccent">#f44336</color>
 
+    <color name="like_transparent">#33FFD600</color>
+
     <!--reds-->
     <color name="md_red_50">#FFEBEE</color>
     <color name="md_red_100">#FFCDD2</color>

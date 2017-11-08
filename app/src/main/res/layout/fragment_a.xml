@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="anindya.sample.materialbottomtab.FragmentA">
+    tools:context="anindya.sample.InstagramLikeAnimation.FragmentA">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView

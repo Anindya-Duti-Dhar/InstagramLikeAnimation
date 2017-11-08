@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "anindya.sample.materialbottomtab"
+        applicationId "anindya.sample.InstagramLikeAnimation"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -30,6 +30,10 @@ dependencies {
 
     // custom tab layout
     compile 'eu.long1:spacetablayout:1.0.4'
+
+    // load image from server
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
 
 
 }

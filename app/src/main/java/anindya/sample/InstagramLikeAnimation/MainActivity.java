@@ -1,4 +1,4 @@
-package anindya.sample.materialbottomtab;
+package anindya.sample.InstagramLikeAnimation;
 
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
@@ -7,7 +7,6 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;

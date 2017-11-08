@@ -1,4 +1,4 @@
-package anindya.sample.materialbottomtab;
+package anindya.sample.InstagramLikeAnimation;
 
 import org.junit.Test;
 

@@ -2,14 +2,90 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="anindya.sample.materialbottomtab.FragmentB">
+    tools:context="anindya.sample.InstagramLikeAnimation.FragmentB">
 
-    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1">
+
+    <anindya.sample.InstagramLikeAnimation.DynamicSquareLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:src="@drawable/ic_keyboard_capslock_black_24dp" />
+        android:id="@+id/left_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/left_demo" />
+
+        <View
+            android:id="@+id/left_image_bg_like"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_like_circle_background"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/left_image_like"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="center"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_heart_outline_white"
+            android:visibility="invisible" />
+
+    </anindya.sample.InstagramLikeAnimation.DynamicSquareLayout>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_weight="1">
+
+        <anindya.sample.InstagramLikeAnimation.DynamicSquareLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/right_box"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/right" />
+
+            <View
+                android:id="@+id/right_image_bg_like"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_like_circle_background"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/right_image_like"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:scaleType="center"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_heart_outline_white"
+                android:visibility="invisible" />
+
+        </anindya.sample.InstagramLikeAnimation.DynamicSquareLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>

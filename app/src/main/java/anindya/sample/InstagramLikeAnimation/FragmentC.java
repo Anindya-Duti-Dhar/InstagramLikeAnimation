@@ -1,4 +1,4 @@
-package anindya.sample.materialbottomtab;
+package anindya.sample.InstagramLikeAnimation;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
